@@ -5,6 +5,7 @@
 This assignment uses **ArcPy** to identify campus buildings that spatially intersect with parking garage service areas on the Texas A&M University main campus.  
 The workflow demonstrates how to set up a workspace, create a geodatabase, manipulate feature layers, and perform basic spatial analysis using buffering and intersection.
 
+All final outputs are stored in the `results/` folder:
 ---
 
 ### Data
@@ -33,12 +34,13 @@ All spatial operations are performed using **arcpy**.
 ---
 
 ### Output
+
 - **HW04_FunWithArcpy.gdb**  
   - Garages (point features)  
   - Buffered garage service areas  
   - Intersected buildings layer  
 
-- **buildings_intersect_garages.csv**  
+- **results\buildings_intersect_garages.csv**  
   Attribute table listing all buildings that fall within the buffer distance of one or more parking garages.
 
 Each row in the CSV represents a spatial relationship between a specific garage buffer and a campus building.  
@@ -46,7 +48,7 @@ Buildings may appear multiple times if they intersect buffers from multiple gara
 
 <img width="2727" height="2020" alt="output_Screenshot" src="https://github.com/user-attachments/assets/13d4cd07-31ee-4192-a02d-0a0a9265979b" />
 
-- **output_Screenshot.png**
+- **results\output_Screenshot.png**
 
 <img width="3544" height="1733" alt="image" src="https://github.com/user-attachments/assets/bb71b8b2-c1ec-4fcb-a3a3-4cf3fcd6ceeb" />
 
