@@ -1,0 +1,10 @@
+# Ignore geodatabases
+*.gdb/
+*.gdb
+
+# ArcGIS locks
+*.lock
+
+# System files
+.DS_Store
+Thumbs.db
