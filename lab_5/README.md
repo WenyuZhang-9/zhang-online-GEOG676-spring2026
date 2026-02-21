@@ -37,7 +37,7 @@ This tool was created using arcpy and added into ArcGIS Pro as a Python toolbox.
 
 - `lab5.pyt` – Python toolbox
 - `garages.csv` – Garage input data
-- `output_ArcgisPro.jpg` – Screenshot of tool in ArcGIS Pro
+- `Results/output_ArcgisPro.jpg` – Screenshot of tool in ArcGIS Pro
 
 ---
 
