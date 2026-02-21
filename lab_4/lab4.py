@@ -1,5 +1,5 @@
 # TAMU GIS Programming - Homework 04
-# Fun with arcpy (ARCPY ONLY)
+# Fun with arcpy
 # Steps: CSV -> GDB -> Garages points -> Copy Structures -> Project -> Buffer -> Intersect -> CSV
 
 import arcpy
